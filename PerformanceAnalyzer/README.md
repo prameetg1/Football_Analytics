@@ -23,7 +23,7 @@ xG, VAEP, pitch control and agentic match reports.**
 
 ---
 
-## 🧠 Problem space
+## Problem space
 
 Football analytics has a *capture* problem: every honest performance question —
 *"Did we actually create the better chances?"*, *"Which player changed the game
@@ -61,7 +61,7 @@ ready to run on hundreds of matches.**
 
 ---
 
-## 💡 Solution space
+## Solution space
 
 PerformanceAnalyzer is two layers, both fully built and tested:
 
@@ -158,12 +158,12 @@ any supported source — this is the *source-agnostic* bet made concrete.
 Real reports generated end-to-end and committed so you can see the output
 without owning the data:
 
-### 🏆 World Cup 2022 Final — France 5-7 Argentina  *(StatsBomb, event + 360)*
+### World Cup 2022 Final — France 5-7 Argentina  *(StatsBomb, event + 360)*
 - **xG:** France 5.41 (5 goals, −0.41), Argentina 5.89 (7 goals)
 - **Verdict:** Argentina created the better chances despite the scoreline
 - **Pressing:** France 376 defensive events vs Argentina 393 · 14 charts
 
-### 📡 Metrica — Exeter vs Brentford  *(dense broadcast tracking + events)*
+### Metrica — Sample Game 1  *(dense broadcast tracking + events)*
 - **xG:** home 2.10 (3 goals), away 0.17 (0 goals)
 - **12 charts**: shot map, xG flow + net-xG, pass maps/networks, press
   heatmaps, win-prob curve, team radar, VAEP bars

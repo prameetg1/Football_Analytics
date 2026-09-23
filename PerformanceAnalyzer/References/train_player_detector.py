@@ -16,7 +16,7 @@ This notebook is based on the [How to Train YOLOv8 Object Detection on a Custom 
 ## Configure API keys
 
 - Open your [`Roboflow Settings`](https://app.roboflow.com/settings/api) page. Click `Copy`. This will place your private key in the clipboard.
-- In Colab, go to the left pane and click on `Secrets` (🔑). Store Roboflow API Key under the name `ROBOFLOW_API_KEY`.
+- In Colab, go to the left pane and click on `Secrets`. Store Roboflow API Key under the name `ROBOFLOW_API_KEY`.
 
 ## Before you start
 

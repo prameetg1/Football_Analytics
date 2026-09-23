@@ -21,7 +21,7 @@ Let's build a Football AI system to dig deeper into match stats! We'll use compu
 
 - Open your [`HuggingFace Settings`](https://huggingface.co/settings) page. Click `Access Tokens` then `New Token` to generate new token.
 - Go to your [`Roboflow Settings`](https://app.roboflow.com/settings/api) page. Click `Copy`. This will place your private key in the clipboard.
-- In Colab, go to the left pane and click on `Secrets` (🔑).
+- In Colab, go to the left pane and click on `Secrets`.
     - Store HuggingFace Access Token under the name `HF_TOKEN`.
     - Store Roboflow API Key under the name `ROBOFLOW_API_KEY`.
 """
