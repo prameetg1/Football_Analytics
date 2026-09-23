@@ -1,0 +1,65 @@
+# -------- Python --------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# -------- Virtual envs --------
+.venv/
+venv/
+env/
+
+# -------- Symlinked local dirs --------
+# .venv and data are symlinks to an absolute local path (DataStore).
+# A trailing-slash rule does NOT match a symlink, so they must be listed bare.
+.venv
+data
+
+# -------- Jupyter --------
+.ipynb_checkpoints/
+
+# -------- Data (licensed third-party; never commit) --------
+# StatsBomb, SkillCorner, IDSSE, Metrica, Wyscout, Understat, FBref, ...
+# and any local download/processing artifacts are licensed and/or huge.
+data/
+downloaded_files/
+
+# -------- Output & artifacts --------
+output/
+runs/
+logs/
+
+# -------- ML models & media --------
+*.pt
+*.onnx
+*.pth
+*.pkl
+*.h5
+*.mp4
+*.mov
+*.avi
+
+# -------- Tooling / local state --------
+pytest-of-prameet/
+notebooks/.colab_keepalive.py
+
+# -------- Secrets --------
+.env
+.env.*
+!.env.example
+config.json
+
+# -------- OS / editor --------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
