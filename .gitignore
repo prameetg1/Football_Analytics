@@ -1,0 +1,12 @@
+# Top-level monorepo ignores (local-only sibling projects + shared data)
+
+# DefenceAnalytics is a future sibling repo — committed later, imported on disk
+DefenseAnalytics/
+
+# Shared local data (licensed feeds, weights, caches) — never committed
+DataStore/
+
+# Secrets
+.env
+.env.*
+!.env.example
